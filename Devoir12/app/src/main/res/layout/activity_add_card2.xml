@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCardActivity2">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="837dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="36dp"
+        app:layout_anchor="@+id/relativeLayout3"
+        app:layout_anchorGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <EditText
+            android:id="@+id/textEditQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Write your Question!"
+            android:inputType="textMultiLine"
+            android:text="Who is the 44th President of the United States?" />
+
+        <EditText
+            android:id="@+id/editTextReponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="216dp"
+            android:ems="10"
+            android:hint="write your answer"
+            android:inputType="textPersonName"
+            android:text="Barack Obama" />
+
+        <EditText
+            android:id="@+id/editTextReponse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="352dp"
+            android:ems="10"
+            android:hint="write a wrong answer"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextReponse3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginBottom="303dp"
+            android:ems="10"
+            android:hint="write a wrong answer"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/myBtnCancel"
+            android:layout_width="89dp"
+            android:layout_height="88dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="109dp"
+            android:elevation="2dp"
+            android:src="@drawable/button_cancel" />
+
+        <ImageView
+            android:id="@+id/myBtnSave"
+            android:layout_width="81dp"
+            android:layout_height="71dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="319dp"
+            android:layout_marginBottom="121dp"
+            android:src="@drawable/button_save" />
+
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
